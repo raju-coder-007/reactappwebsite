@@ -1,5 +1,7 @@
 import React from 'react';
 import Hero from './Hero';
+import hero1 from './images/hero1.png'
+
 
 
 
@@ -8,7 +10,7 @@ import Hero from './Hero';
 const Home = () => {
     return (
         <>
-            <Hero heading="Grow your business with" image="hero1.png" visit="/services" btnname="Get Started"/>
+            <Hero heading="Grow your business with" image={hero1} visit="/services" btnname="Get Started"/>
         </>
     )
 }

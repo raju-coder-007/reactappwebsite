@@ -3,6 +3,7 @@ import Card from './Card';
 import Sdata from './Sdata';
 
 
+
 const Services = () => {
     return (
         <>
@@ -17,7 +18,7 @@ const Services = () => {
                                                             
                                 {
                                     Sdata.map((curElm, ind)=>{
-                                        return <Card
+                                        return <Card key={curElm.sno}
                                             imgsrc={curElm.imgsrc}
                                             title={curElm.title}
                                         />
